@@ -2,7 +2,7 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 alias s="ssh -L 8000:127.0.0.1:8000 "
-alias config="git --git-dir=$HOME/dotfiles --work-tree=$HOME"
+alias config="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 
 
 # If not running interactively, don't do anything
