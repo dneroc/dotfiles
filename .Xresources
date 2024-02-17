@@ -5,6 +5,7 @@
 ! URxvt.boldFont: xft:ProggyClean Nerd Font:size=12
 ! URxvt.font: xft:Monocraft:style=Regular:size=12
 ! URxvt.boldFont: xft:Monocraft:style=Regular:size=12
+! another comment 
 URxvt.font: xft:UbuntuMono Nerd Font:style=Regular:size=12
 URxvt.boldFont: xft:UbuntuMono Nerd Font:style=Bold:size=12
 URxvt.geometry:111x35
