@@ -3,6 +3,7 @@
 # for examples
 alias s="ssh -L 8000:127.0.0.1:8000 "
 alias config="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
+alias cowboy='sudo sysctl -w net.ipv4.ping_group_range="0 1000"'
 
 export PATH=$PATH:$HOME/.local/bin
 # If not running interactively, don't do anything
