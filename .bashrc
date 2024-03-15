@@ -5,7 +5,6 @@ alias s="ssh -L 8000:127.0.0.1:8000 "
 alias config="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 
 export PATH=$PATH:$HOME/.local/bin
-
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;

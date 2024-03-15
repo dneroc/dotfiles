@@ -1,7 +1,8 @@
 #!/bin/sh
-xrandr --newmode  "1440x900_60.00"  106.50  1440 1528 1672 1904  900 903 909 934 -hsync +vsync
-xrandr --addmode eDP-1 1440x900_60.00
+#
+# This file is sourced by display managers when log in. Great for setting X related commands automatically on log in.
 
 
-xrandr --newmode "1400x788_60.00"   89.75  1400 1472 1616 1832  788 791 801 818 -hsync +vsync
-xrandr --addmode HDMI-1 1400x788_60.00
+# enable touchpad Tapping, praying that our Touchpad device ID is 10
+# list device ID's	$(xinput list)
+xinput set-prop 10 "libinput Tapping Enabled" 1
