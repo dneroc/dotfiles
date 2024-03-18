@@ -10,3 +10,13 @@ On Ubuntu 22.04 lts the following configuration was required:
 software required:
     generally available in official repo: 
     i3 polybar cava
+
+
+For servers:
+    openssh
+    tightvncserver
+    ftp server
+
+
+To-do:
+tmux statusline should display sudo status as a green or red light
