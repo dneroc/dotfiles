@@ -4,6 +4,7 @@
 alias s="ssh -L 8000:127.0.0.1:8000 "
 alias config="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 alias cowboy='sudo sysctl -w net.ipv4.ping_group_range="0 1000"'
+alias review="git push origin HEAD:refs/for/master"
 
 export PATH=$PATH:$HOME/.local/bin
 # If not running interactively, don't do anything
@@ -13,10 +14,10 @@ case $- in
 esac
 
 # Start SSH agent
-if [ -z "$SSH_AUTH_SOCK" ] ; then
-    eval "$(ssh-agent -s)"
-    ssh-add
-fi
+# if [ -z "$SSH_AUTH_SOCK" ] ; then
+#     eval "$(ssh-agent -s)"
+#     ssh-add
+# fi
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 HISTCONTROL=ignoreboth

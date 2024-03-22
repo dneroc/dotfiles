@@ -6,6 +6,7 @@ On Ubuntu 22.04 lts the following configuration was required:
 
     git push --set-upstream origin master
 
+<<<<<<< Updated upstream
 
 software required:
     generally available in official repo: 
@@ -20,3 +21,4 @@ For servers:
 
 To-do:
 tmux statusline should display sudo status as a green or red light
+
